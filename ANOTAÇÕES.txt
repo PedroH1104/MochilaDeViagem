@@ -1,0 +1,19 @@
+localStorage.setItem -> criando um item 
+
+localStorage.setItem("chave", "valor") -> chave é o que eu vou usar para acessar, e valor é o que eu quero inserir
+
+ex: localStorage.setItem("curso", "Alura")
+
+
+							PARA ACESSAR AS INFORMAÇÕES
+localStorage.curso / retorna -> "Alura"
+
+ou
+
+localStorage.getItem("curso") / retorna -> "Alura"
+
+
+
+como remover um item -> localStorage.removeItem("curso")
+
+como limpar o local storage -> localStorage.clear()
